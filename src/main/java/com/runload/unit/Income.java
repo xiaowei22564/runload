@@ -50,6 +50,7 @@ public class Income {
             //Integer d = Integer.valueOf(s);
             zong = zong.add(bigDecimal);
         }
+
         System.out.println(zong);
     }
 }
