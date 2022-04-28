@@ -150,6 +150,8 @@ public class CmdOrderController {
         list.add(jsonObject1);
 
         jsonObject.put("dada",list);
+        jsonObject.put("map",id);
+        jsonObject.put("json",jsonObject1);
 
         return jsonObject;
     }
